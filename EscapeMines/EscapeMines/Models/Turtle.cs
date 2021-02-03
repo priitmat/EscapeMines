@@ -44,7 +44,7 @@ namespace EscapeMines.Models
             }
         }
 
-        public void DoMove()
+        private void DoMove()
         {
             switch (Direction)
             {

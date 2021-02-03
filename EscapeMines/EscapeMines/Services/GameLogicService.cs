@@ -67,9 +67,7 @@ namespace EscapeMines.Services
             foreach (var mine in _gameSettings.Mines)
             {
                 if (mine.X == x && mine.Y == y)
-                    return true;
-                else
-                    return false;
+                    return true;          
             }
             return false;
         }
